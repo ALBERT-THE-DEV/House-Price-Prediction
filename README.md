@@ -9,6 +9,7 @@ The dataset is a synthetic dataset of 600 house records with features such as ar
 Features Used
 -------------
 Numeric features: Area, Bedrooms, Bathrooms, Stories, and Parking. 
+
 Categorical features: Main road access, Guest room, Basement, Hot water heating, Air conditioning, Preferred area, and Furnishing status.
 
 How to Use
