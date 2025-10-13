@@ -69,11 +69,11 @@ st.divider()
 st.subheader("About the Model")
 
 st.markdown("""
-This prediction model is built using **Linear Regression**, a fundamental machine learning algorithm for continuous data.
-It was trained on **600 synthetic housing records** categorized into:
-- Low-tier houses (below 500K)
-- Mid-tier houses (500K – 1M)
-- High-tier houses (above 1M)
+This prediction model is built using Linear Regression, a fundamental machine learning algorithm for continuous data.
+It was trained on 600 synthetic housing records categorized into:
+- Economy (below 500K)
+- Midscale (500K – 1M)
+- Luxury (above 1M)
 
 The model learns relationships between key features such as:
 - Area, Bedrooms, Bathrooms, Stories
@@ -94,4 +94,5 @@ with st.expander("Model's Working based Formula"):
     """)
 
    
+
 
