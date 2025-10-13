@@ -64,4 +64,34 @@ if st.button("Predict House Price", help="Click to estimate the house price.", t
         tier = "Luxury"
     st.info(f"Price Tier: {tier}")
 
+
+st.divider()
+st.subheader("About the Model")
+
+st.markdown("""
+This prediction model is built using **Linear Regression**, a fundamental machine learning algorithm for continuous data.
+It was trained on **600 synthetic housing records** categorized into:
+- Low-tier houses (below 500K)
+- Mid-tier houses (500K – 1M)
+- High-tier houses (above 1M)
+
+The model learns relationships between key features such as:
+- Area, Bedrooms, Bathrooms, Stories
+- Main Road, Air Conditioning, Basement, Furnishing Status, etc.
+
+The result is a simple yet effective regression model capable of estimating house prices with realistic variance across property types.
+""")
+
+with st.expander("Model's Working based Formula"):
+    st.markdown(r"""
+    The price is predicted using the equation:
+
+    \[
+    \text{Price} = \beta_0 + \beta_1(\text{Area}) + \beta_2(\text{Bedrooms}) + \beta_3(\text{Bathrooms}) + \dots + \beta_n(\text{Feature}_n)
+    \]
+
+    where each β represents the learned coefficient that determines how much that feature affects the overall price.
+    """)
+
    
+
