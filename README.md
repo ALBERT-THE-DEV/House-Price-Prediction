@@ -4,7 +4,7 @@ This project predicts house prices using a Linear Regression model. The app is d
 
 Project Overview
 ----------------
-The dataset is a synthetic dataset of 600 house records with features such as area, bedrooms, bathrooms, stories, and amenities. Price tiers are categorized as Economy (below 500,000), Midscale (500,000–1,000,000), and Luxury (above 1,000,000). The model used is Linear Regression trained on the dataset with categorical features encoded using label encoders.
+The dataset is a synthetic dataset of 600 house records with features such as area, bedrooms, bathrooms, stories, and other housing features. Price tiers are categorized as Economy (below 500,000), Midscale (500,000–1,000,000), and Luxury (above 1,000,000). The model used is Linear Regression trained on the dataset with categorical features encoded using label encoders.
 
 Features Used
 -------------
