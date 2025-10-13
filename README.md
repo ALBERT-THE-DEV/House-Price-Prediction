@@ -58,10 +58,10 @@ Visualization Outputs
 To better understand the model’s performance and behavior, several visualizations were generated during analysis:
 
 1. Residual Plot – Displays the difference between predicted and actual prices, helping visualize model error and bias.
-![Residual Plot](images/residual_plot.png)  
+![Residual Plot](images/Residual_plot.png)  
 
 2. Feature Importance Plot – Illustrates the relative weight or contribution of each feature in determining the predicted house price.
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/Feature_importance.png)
  
 These plots assist in evaluating model accuracy, feature relationships, and areas for potential improvement.
 
