@@ -34,7 +34,7 @@ The model predicts house price using the linear equation:
 
 Price = β0 + β1*(Area) + β2*(Bedrooms) + β3*(Bathrooms) + ... + βn*(Feature_n)
 
-where each β represents the learned weight for that feature.
+,where each β represents the learned weight for that feature.
 
 Deployment
 ----------
