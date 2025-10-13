@@ -40,16 +40,17 @@ Feature Importance Analysis
 ---------------------------
 After training, the following features were found to have the most significant influence on the predicted house prices based on model coefficients:
 
-Feature             Influence          Description
---------------------------------------------------------------------------------------------
-Bathrooms           Strong positive    More bathrooms significantly increase price.
-Furnishing Status   Moderate positive  Furnished and semi-furnished houses tend to cost more.
-Basement            Moderate positive  Houses with basements have higher value.
-Guestroom           Mild positive      Presence of a guestroom adds to the price.
-Area                Mild positive      Larger floor area increases price proportionally.
-Bedrooms            Negative           Slightly reduces price due to data distribution.
-Prefarea            Negative           Small inverse correlation in dataset.
-Stories             Negative           Additional stories show reduced impact on price.
+Feature           | Influence         | Description
+----------------- | ---------------- | -------------------------------------------
+Bathrooms         | Strong positive  | More bathrooms significantly increase price.
+Furnishing Status | Moderate positive| Furnished and semi-furnished houses tend to cost more.
+Basement          | Moderate positive| Houses with basements have higher value.
+Guestroom         | Mild positive    | Presence of a guestroom adds to the price.
+Area              | Mild positive    | Larger floor area increases price proportionally.
+Bedrooms          | Negative         | Slightly reduces price due to data distribution.
+Prefarea          | Negative         | Small inverse correlation in dataset.
+Stories           | Negative         | Additional stories show reduced impact on price.
+
 
 
 The model’s coefficients indicate that interior and comfort-based features (bathrooms, furnishing, and basement) have the strongest effect on price, while size (area) also contributes significantly.
