@@ -1,6 +1,6 @@
 # House-Price-Prediction (Linear Regression)
 
-This project predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated price.
+This project predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated cost.
 
 Project Overview
 ----------------
@@ -21,25 +21,30 @@ How to Use
 
 Files in Repository
 -------------------
-- streamlit_app.py : Streamlit web application
-- linear_regression_large_housing_model.joblib : Joblib file containing trained model
-- label_encoders.pkl : Encoders for categorical features
-- housing_large_dataset.csv : Dataset used for training the model
-- model_training.py : Script used to train the Linear Regression model
-- requirements.txt : Python packages required to be installed
+- streamlit_app.py: Streamlit web application
+- linear_regression_large_housing_model.joblib: Joblib file containing trained model
+- label_encoders.pkl: Encoders for categorical features
+- housing_large_dataset.csv: Dataset used for training the model
+- model_training.py: Script used to train the Linear Regression model
+- requirements.txt: Python packages required to be installed
 
 Model Details
 --------------
-The model predicts house price using the linear equation:
+The model predicts house prices using the linear equation:
 
 Price = β0 + β1*(Area) + β2*(Bedrooms) + β3*(Bathrooms) + ... + βn*(Feature_n)
 
-,where each β represents the learned weight for that feature.
+, where each β represents the learned weight for that feature.
 
 Deployment
 ----------
 The app is deployed online using Streamlit Cloud and can be accessed at: https://house-price-prediction-6tai5qkqgam6ge2ykk4rj8.streamlit.app
 
 The model can also be run locally using the instructions above.
+
+Model Performance
+-----------------
+During the training phase, the Linear Regression model achieved an R² score of 1.0 and an RMSE of approximately 10,615 on a synthetic dataset consisting of 600 samples. On an external house dataset consisting of 15 samples that was not used in training, the model achieved an R² score of 0.431 and an RMSE of approximately 106,696. These metrics show that the model fits the training data well and provides reasonable predictions on unseen houses, demonstrating its generalization ability.
+
 
 
