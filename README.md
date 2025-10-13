@@ -36,6 +36,20 @@ Price = β0 + β1*(Area) + β2*(Bedrooms) + β3*(Bathrooms) + ... + βn*(Feature
 
 , where each β represents the learned weight for that feature.
 
+Feature Importance Analysis
+---------------------------
+After training, the following features were found to have the most significant influence on the predicted house prices based on model coefficients:
+
+Feature | Influence | Description
+Bathrooms | Strong positive | More bathrooms significantly increase price.
+Furnishing Status | Moderate positive | Furnished and semi-furnished houses tend to cost more.
+Basement | Moderate positive | Houses with basements have higher value.
+Guestroom | Mild positive | Presence of a guestroom adds to the price.
+Area | Mild positive | Larger floor area increases price proportionally.
+Bedrooms, Prefarea, Stories | Weak or negative | These features showed less or inverse correlation due to dataset structure.
+
+The model’s coefficients indicate that interior and comfort-based features (bathrooms, furnishing, and basement) have the strongest effect on price, while size (area) also contributes significantly.
+
 Deployment
 ----------
 The app is deployed online using Streamlit Cloud and can be accessed at: https://house-price-prediction-6tai5qkqgam6ge2ykk4rj8.streamlit.app
