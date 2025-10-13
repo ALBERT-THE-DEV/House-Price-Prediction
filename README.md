@@ -33,11 +33,13 @@ Model Details
 The model predicts house price using the linear equation:
 
 Price = β0 + β1*(Area) + β2*(Bedrooms) + β3*(Bathrooms) + ... + βn*(Feature_n)
+
 where each β represents the learned weight for that feature.
 
 Deployment
 ----------
 The app is deployed online using Streamlit Cloud and can be accessed at: https://house-price-prediction-6tai5qkqgam6ge2ykk4rj8.streamlit.app
+
 The model can also be run locally using the instructions above.
 
 
