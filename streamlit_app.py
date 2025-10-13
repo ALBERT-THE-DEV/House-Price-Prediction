@@ -83,16 +83,12 @@ The result is a simple yet effective regression model capable of estimating hous
 """)
 
 with st.expander("Model's Working based Formula"):
-    st.markdown(r"""
-    The price is predicted using the equation:
+   st.latex(r"\text{Price} = \beta_0 + \beta_1(\text{Area}) + \beta_2(\text{Bedrooms}) + \beta_3(\text{Bathrooms}) + \dots + \beta_n(\text{Feature}_n)" 
+            where each β represents the learned coefficient that determines how much that feature affects the overall price.)
 
-    \[
-    \text{Price} = \beta_0 + \beta_1(\text{Area}) + \beta_2(\text{Bedrooms}) + \beta_3(\text{Bathrooms}) + \dots + \beta_n(\text{Feature}_n)
-    \]
-
-    where each β represents the learned coefficient that determines how much that feature affects the overall price.
-    """)
 
    
+   
+
 
 
