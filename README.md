@@ -61,7 +61,7 @@ To better understand the model’s performance and behavior, several visualizati
 ![Residual Plot](images/Residual_plot.png)  
 
 2. Feature Importance Plot – Illustrates the relative weight or contribution of each feature in determining the predicted house price.
-![Feature Importance](images/Feature_importance.png)
+![Feature Importance](images/Feature_Importance.png)
  
 These plots assist in evaluating model accuracy, feature relationships, and areas for potential improvement.
 
