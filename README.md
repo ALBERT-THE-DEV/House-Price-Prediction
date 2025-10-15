@@ -15,9 +15,16 @@ Categorical features: Main road access, Guest room, Basement, Hot water heating,
 How to Use
 ----------
 1. Clone the repository.
-2. Install the required packages using the command: pip install -r requirements.txt
-3. Run the Streamlit app using the command: streamlit run streamlit_app.py
-4. Input the house details in the web interface to get the predicted price.
+   
+2. Install the required packages using the command:
+
+    pip install -r requirements.txt
+   
+3. Run the Streamlit app using the command:
+
+   streamlit run streamlit_app.py
+   
+4. Input the house details in the web interface to obtain the predicted price.
 
 Files in Repository
 -------------------
