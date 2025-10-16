@@ -33,7 +33,7 @@ Files in Repository
 - label_encoders.pkl: Encoders for categorical features
 - housing_large_dataset.csv: Dataset used for training the model
 - model_training.py: Script used to train the Linear Regression model
-- requirements.txt: Python packages required to be installed
+- requirements.txt: Packages required to be installed
 
 Model Details
 --------------
