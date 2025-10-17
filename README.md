@@ -1,6 +1,6 @@
 # House-Price-Prediction (Linear Regression)
 
-This project predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated cost.
+This is a sample project that predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated cost.
 
 Project Overview
 ----------------
