@@ -1,6 +1,6 @@
 # House-Price-Prediction (Linear Regression)
 
-This is a project that predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated cost.
+This is a learning project that predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated cost.
 
 Project Overview
 ----------------
@@ -12,20 +12,6 @@ Numeric features: Area, Bedrooms, Bathrooms, Stories, and Parking.
 
 Categorical features: Main road access, Guest room, Basement, Hot water heating, Air conditioning, Preferred area, and Furnishing status.
 
-How to Use
-----------
-1. Clone the repository.
-   
-2. Install the required packages using the command:
-
-    pip install -r requirements.txt
-   
-3. Run the Streamlit app using the command:
-
-   streamlit run streamlit_app.py
-   
-4. Input the house details in the web interface to obtain the predicted price.
-
 Files in Repository
 -------------------
 - streamlit_app.py: Streamlit web application
@@ -34,31 +20,6 @@ Files in Repository
 - housing_large_dataset.csv: Dataset used for training the model
 - model_training.py: Script used to train the Linear Regression model
 - requirements.txt: Packages required to be installed
-
-Model Details
---------------
-The model predicts house prices using the linear equation:
-
-Price = β0 + β1*(Area) + β2*(Bedrooms) + β3*(Bathrooms) + ... + βn*(Feature_n)
-
-, where each β represents the learned weight for that feature.
-
-Feature Importance Analysis
----------------------------
-After training, the following features were found to have the most significant influence on the predicted house prices based on model coefficients:
-
-Feature           | Influence         | Description
------------------ | ---------------- | -------------------------------------------
-Bathrooms         | Strong positive  | More bathrooms significantly increase price.
-Furnishing Status | Moderate positive| Furnished and semi-furnished houses tend to cost more.
-Basement          | Moderate positive| Houses with basements have higher value.
-Guestroom         | Mild positive    | Presence of a guestroom adds to the price.
-Area              | Mild positive    | Larger floor area increases price proportionally.
-Bedrooms          | Negative         | Slightly reduces price due to data distribution.
-Prefarea          | Negative         | Small inverse correlation in dataset.
-Stories           | Negative         | Additional stories show reduced impact on price.
-
-The model’s coefficients indicate that interior and comfort-based features (bathrooms, furnishing, and basement) have the strongest effect on price, while size (area) also contributes significantly.
 
 Visualization Outputs
 ---------------------
@@ -75,8 +36,6 @@ These plots assist in evaluating model accuracy, feature relationships, and area
 Deployment
 ----------
 The app is deployed online using Streamlit Cloud and can be accessed at: https://house-price-prediction-6tai5qkqgam6ge2ykk4rj8.streamlit.app
-
-The model can also be run locally using the instructions above.
 
 Model Performance
 -----------------
