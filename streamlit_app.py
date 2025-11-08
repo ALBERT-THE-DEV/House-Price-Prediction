@@ -11,7 +11,7 @@ import pickle
 with open("label_encoders.pkl", "rb") as f:
     label_encoders = pickle.load(f)
 
-st.title("House Price Predictor")
+st.title("PricePilot🏠")
 
 st.markdown("Enter house details below to predict the house price.")
 
@@ -89,6 +89,7 @@ with st.expander("Model's Working based Formula"):
 
    
    
+
 
 
 
