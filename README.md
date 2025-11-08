@@ -1,4 +1,4 @@
-# House-Price-Prediction (Linear Regression)
+# PricePilot (Linear Regression)
 
 This is a learning project that predicts house prices using a Linear Regression model. The app is deployed using Streamlit and allows users to input various house features to get an estimated cost.
 
